@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-neutral-900 text-neutral-100;
+}
+input[text] {
+  @apply text-black;
+}
